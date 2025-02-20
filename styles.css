@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E3CAA5;
+}
+p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.panel{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+}
+.square{
+    border: 10px solid;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.one{
+    background-color: #F38181;
+}
+.two{
+    background-color: #FCE38A;
+}
+.three{
+    background-color: #EAFFD0;
+}
+.four{
+    background-color: #95E1D3;
+}
+.flash{
+    background-color: white;
+}
